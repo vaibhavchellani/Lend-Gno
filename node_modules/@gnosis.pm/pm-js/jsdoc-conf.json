@@ -1,0 +1,18 @@
+{
+    "source": {
+        "include": "src"
+    },
+    "plugins": ["node_modules/jsdoc-strip-async-await", "plugins/markdown"],
+    "templates": {
+        "default": {
+            "layoutFile": "assets/layout.tmpl",
+            "includeDate": false
+        }
+    },
+    "opts": {
+        "destination": "docs",
+        "readme": "README.md",
+        "template": "node_modules/minami",
+        "tutorials": "tutorials"
+    }
+}
